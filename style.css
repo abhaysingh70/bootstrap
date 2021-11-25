@@ -89,7 +89,8 @@
 }
 @media (min-width: 768px ) { 
     .dropdown-menu{
-        margin-left: -64px;
+        margin-left: -22px;
+        top:76%
     }
     
  }
