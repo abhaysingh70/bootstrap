@@ -87,6 +87,68 @@
 .marg{
     margin-top: 5rem;
 }
+
+.footer{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem, 1fr));
+    gap: 1rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+
+
+}
+
+.footer .box-container .box a:hover i{
+    padding-left: 2rem;
+}
+
+
+.footer .credit{
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--light-color);
+    border-top: .1rem solid white;
+
+    
+}
+
+
+
+
+
+.face-sz{
+    margin-left: 70px;
+}
+
+
+
+
 @media (min-width: 768px ) { 
     .dropdown-menu{
         margin-left: -64px;
