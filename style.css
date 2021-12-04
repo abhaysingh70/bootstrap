@@ -1,189 +1,105 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-
-/*faqs*/
-#faqs{
-    background-color: white;
-    height: 100%;
-    padding: 0px 0;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-#accordion .card{
-    border-radius: 0;
-    background: none;
-    border-left-width: 0;
-    border-right-width: 0;
-
-}
-.card-header {
-    background: none;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border-radius: 0;
-}
-  .h2 {
-    font-size: 1rem;
-    
-
-}
- .btn {
-    color: #0c7f90;
-    width: 100%;
-    text-align: left;
-    padding-left: 0;
-    padding-right: 0;
-    
-    
-}
-.btn-off {
-    color: #0c7f90;
-    width: 42%;
-    text-align: left;
-    padding-left: 0;
-    padding-right: 0;
-    
-    
-}
-.btn-strt{
-    color: #0c7f90;
-    width: 49%;
-    text-align: left;
-    padding-left: 0;
-    padding-right: 0;
-    
-}
-
- .card-header i {
-    font-size:  1.3rem;
-    position: absolute;
-    top: 15px;
-    right: 1rem;
-}
- .card-body{
-    color: #666;
-}
-.clearfix{
-    background: none;
-    border-radius: 0;
-    padding-right: 9px;
-    font-size: 0.1rem;
-
-}
-.row{
-    margin-right: 0;
-}
-
-.gts{
- margin-left: 40px;
-
-}
-.marg{
-    margin-top: 5rem;
-}
-@media (min-width: 768px ) { 
-    .dropdown-menu{
-        margin-left: 22px;
-        top:76%
-    }
-    
- }
- .marg{
-     margin-top: 3rem;
- }
-.wdth{
-    width: 100px;
-    margin-left: 121px;
-}
-.gts{
-    width: 114px;
-    margin-bottom: 7px;
-
-}
-
-@media (min-width: 1300px) and (max-width: 1500px) {
-    .marg{
-        margin-top: 5rem;
-    }
-}
-.cont a{
-    text-decoration: none;
-}
-.gts{
- margin-left: 40px;
-
-}
-.cont .marg{
-    margin-bottom: -15rem;
-}
-
-
-
-.accordion-item{
-    background-color: white;
-    margin-bottom: 1rem;
-    border-radius: .4rem;
-    border: 1px solid;
-    box-shadow: .5rem 2px .5rem darkslategrey;
-}
-.accordion-link{
-    font-size: 1rem;
-    color: black;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    align-items: center;
-    font-family: inherit;
-    margin-left: 7px;
-    font: bold;
-
-    
-    
-}
-.accordion-link i{
-    
-    padding: .5rem;
-}
-.answer{
-    max-height: 0;
-    overflow: hidden;
-    position: relative;
-    transition: max-height 650ms;
-    
-}
-.answer::before{
-    content: "";
-    position: absolute;
-    width: .6rem;
-    height: 90%;
-    top: 50%;
-    transform: translate(-50%);
-}
-.answer p{
-    font-size: 0.6rem;
+p,h1,h6,h2,h4,h3{
     padding: 0.5rem;
 }
-.accordion-item:target .answer{
-    max-height: 19rem;
-}
-.accordion-item:target .accordion-link .i{
-    display: none;
-}
-.con{
+.header{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    font-size: 12px;
+    background-color: rgb(47, 67, 248);
+}
+.logo{
+    border: 1px solid blue;
+    background: white;
+    padding: 1rem;
+    border-radius: 0.5em;
+    font-size: 1.5rem;
+
+}
+
+.logo span{
+    color: rgb(47, 141, 248);
+}
+.ic h1{
+    margin-top: 1rem;
+}
+
+.card-1{
+    margin-top: 1rem;
+}
+.card i{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.service{
+    background: rgb(166, 199, 238);
+}
+.card-body{
     align-items: center;
+}
+.offer{
+    background:lightgreen;
+
+}
+.arr{
+    margin-top: 60px;
+}
+.rrr{
+    text-align: center;
+}
+
+
+.saf{
+    margin-left: 2rem;
+    border-left: 3px solid blue;
+
+}
+.saff{
+    background-color: rgb(203, 239, 253);
     
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: blue;
+    margin-top: 6rem;
+    margin-left: rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer{
+    background-color: rgb(47, 67, 248);
+
+}
+.ff{
+    border-top: 1px solid white;
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+
+.check{
+    font-size: 2rem;
+}
+.abh{
+    display: flex;
+    flex: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    
+}
+.cop{
+    flex-grow: 1;
+    color: white;
+}
+.term{
+    color: white;
 }
