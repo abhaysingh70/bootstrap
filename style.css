@@ -103,3 +103,53 @@ p,h1,h6,h2,h4,h3{
 .term{
     color: white;
 }
+
+.card-wrapper{
+    display: flex;
+}
+.cad{
+    flex: 1 1 400;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+    justify-content: space-betw;
+
+}
+.bord{
+    border: 1px solid blue;
+    width: 40%;
+    margin-left: 6rem;
+    background: rgb(60, 97, 199);
+    color: white;
+    
+}
+.bord-1{
+    border: 1px solid red;
+    width: 40%;
+    margin-left: 6rem;
+    background: rgb(230, 45, 45);
+    color: white;
+}
+.imge{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0 auto;
+    flex: 1 1 300px;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.imge img{
+    display: block;
+    width: 140px;
+    height: 70px;
+    align-content: space-between;
+}
+
+@media (max-width: 858px){
+    .card-wrapper{
+        flex-direction: column;
+    }
+}
