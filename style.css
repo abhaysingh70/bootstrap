@@ -69,7 +69,7 @@ p,h1,h6,h2,h4,h3{
     border-radius: 50%;
     background: blue;
     margin-top: 6rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 0.5rem;
 
 }
@@ -180,7 +180,6 @@ p,h1,h6,h2,h4,h3{
     border-radius: 50%;
     background: blue;
     padding: 30px;
-    flex :1 1 100px;
     max-width: 100%;
     margin: auto;
     object-fit: cover;
@@ -204,5 +203,39 @@ p,h1,h6,h2,h4,h3{
     }
     .offer-wrapper{
         flex-direction: column;
+    }
+    .offer-img{
+        margin-top: 2rem;
+    }
+    .imge-wrapper{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imge-wrapper img{
+        display: block;
+        width: 100%;
+        margin: auto;
+        object-fit: cover;
+        object-position: center;
+    }
+    .imge-1{
+        width: 50%;
+    }
+    .imge-2{
+        width: 50%;
+    }
+    .imge-4{
+        width: 50%;
+    }
+    .imge-5{
+        width: 50%;
+    }
+    .imge-3{
+        width: 50%;
+    }
+    .lgo{
+        margin: 1rem 0;
+        position: relative;
     }
 }
