@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
+
+
+.bb{
+    border-radius: 20px;
 }
-p,h1,h6,h2,h4,h3{
-    padding: 0.5rem;
+
+ h6{
+    letter-spacing: 10px;
 }
 .header{
     width: 100%;
@@ -21,6 +26,7 @@ p,h1,h6,h2,h4,h3{
     font-size: 1.5rem;
 
 }
+ 
 
 .logo span{
     color: rgb(47, 141, 248);
@@ -29,16 +35,124 @@ p,h1,h6,h2,h4,h3{
     margin-top: 1rem;
 }
 
-.card-1{
+
+
+
+#about{
+    background: rgb(47, 67, 248);
+
+
+}
+.about-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about h1{
+    color: white;
+    font-weight: bold;
+}
+#about p{
+    color: white;
+}
+#about h6{
+    color: white;
+}
+
+
+.about-text{
+    flex: 1 1 400px;
+    margin: auto;
+    padding: 10px ;
+
+}
+.about-img{
+    margin: auto;
+    flex: 1 1 300px;
+}
+.about-img img{
+    display: block;
+    
+    max-width: 80%;
+    margin: auto;
+    object-fit: cover;
+    
+}
+#offer{
+    background: rgb(47, 67, 248);;
+}
+
+
+#ladu{
+    padding: 50px  0px;
+    background: rgb(220, 244, 248);
+}
+.ladu-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ladu-img{
+    padding: 30px;
+    margin: auto;
+}
+.ladu-text{
+    margin: auto;
+    flex: 1 1 300px;
+    padding:  30px;
+}
+.ladu-img img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+#card{
+    padding: 50px 0;
+}
+.text-card{
+    text-align: center;
+    padding: 10px;
+
+}
+
+#card h1 h6{
+    font-weight: bold;
+}
+.card-wrapper{
+    display: flex;
+}
+.cad{
+    margin:  auto;
+    text-align: center;
+    padding: 30px;
+
+}
+.card{
+    padding: 10px;
+}
+
+.card h5{
     margin-top: 1rem;
 }
 .card i{
-    border: 1px solid black;
-    padding: 0.5rem;
+    margin-top: 1rem;
+
 }
 .service{
     background: rgb(166, 199, 238);
+    
 }
+#singh{
+    padding: 50px 0;
+}
+.singh{
+    padding: 10px;
+}
+
+
+.text-crd{
+    padding: 20px;
+}
+
 .card-body{
     align-items: center;
 }
@@ -49,20 +163,50 @@ p,h1,h6,h2,h4,h3{
 .arr{
     margin-top: 60px;
 }
-.rrr{
-    text-align: center;
+#safety{
+    padding: 50px 0;
+    background:  rgb(203, 239, 253);
+    ;
 }
+.saf-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.saf-img{
+    padding: 30px;
+    margin: auto;
+}
+.saf-text{
+    margin: auto;
+    padding: 10px;
+
+}
+.saf h4{
+    margin-left: 1rem;
+}
+.saf p{
+    margin-left: 1rem;
+}
+.saf-img img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+
+}
+
+
 
 
 .saf{
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-left: 3px solid blue;
 
+
 }
-.saff{
-    background-color: rgb(203, 239, 253);
-    
-}
+
+
 .circle{
     width: 250px;
     height: 250px;
@@ -73,16 +217,56 @@ p,h1,h6,h2,h4,h3{
     margin-bottom: 0.5rem;
 
 }
-
-.footer{
-    background-color: rgb(47, 67, 248);
+.circl{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: blue;
+    max-width: 100%;
 
 }
-.ff{
+
+
+
+.footer{
+    background-color: rgb(78, 83, 128);
+
+}
+
+.foot li a{
+    text-decoration: none;
+    list-style: none;
+}
+.foot li a:hover{
+    color: rgb(199, 188, 33);
+}
+
+.foot-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
     border-top: 1px solid white;
-    color: white;
     border-bottom: 1px solid white;
 
+}
+
+.foot{
+    width: 200px;
+    margin-top: 1rem;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    padding-top: 50px ;
+}
+
+.getin{
+    text-align: center;
 }
 
 .check{
@@ -104,40 +288,45 @@ p,h1,h6,h2,h4,h3{
     color: white;
 }
 
-.card-wrapper{
-    display: flex;
-}
-.cad{
-    flex: 1 1 400;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 3rem;
-    justify-content: space-betw;
 
-}
 .bord{
-    border: 1px solid blue;
-    width: 40%;
-    margin-left: 6rem;
+    
+    display: block;
+    width: 30%;
+    margin-left: 8rem;
+    font-size: 2rem;
     background: rgb(60, 97, 199);
+    border: 1px solid blue;
     color: white;
 }
 .bord-1{
+    display: block;
+    width: 30%;
     border: 1px solid red;
-    width: 40%;
     margin-left: 6rem;
+    font-size: 2rem;
     background: rgb(230, 45, 45);
     color: white;
 }
+#brand{
+    padding: 50px 0;
+}
+#brand h1{
+    font-weight: bold;
+
+}
+.brand-text{
+    text-align: center;
+    padding: 10px;
+}
 .imge-wrapper{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     
 }
 .imge-wrapper img{
     display: block;
-    width: 100%;
+    width: 15%;
     margin: auto;
     object-fit: cover;
     object-position: center;
@@ -146,57 +335,117 @@ p,h1,h6,h2,h4,h3{
     margin: 0  1rem;
     position: relative;
 }
-.imge-1{
-    width: 100%;
+
+#faq{
+    padding: 50px 0;
 }
-.imge-2{
-    width: 100%;
-}
-.imge-4{
-    width: 100%;
-}
-.imge-5{
-    width: 100%;
-}
-.imge-3{
-    width: 100%;
-}
-#textimal{
-    background: skyblue;
-}
-#textimal h6{
-    margin-top: 5rem;
-}
-.name{
-    margin-bottom: 5rem;
-}
-.offer-wrapper{
-    display: flex;
+.text-faq{
+    text-align: center;
+    padding: 10px;
 }
 
-.offer-img{
-    width: 300px;
-    height: 300px;
+
+#texti{
+    background:  rgb(203, 239, 253);
+    padding: 50px 0;
+
+}
+.texi-text img{
     border-radius: 50%;
-    background: blue;
+}
+.texti-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texti-img{
+    margin: auto;
     padding: 30px;
+}
+.texi-text{
+    margin: auto;
+    flex: 1 1 400px;
+    padding: 30px;
+}
+
+.texti-img img{
+    display: block;
     max-width: 100%;
     margin: auto;
     object-fit: cover;
+}
+.footer i{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.footer h5{
+    font-weight: bold;
+    font-size: 1.4rem;
 
 }
-.offer-text{
-    flex :1 1 400px;
-    margin: 0 auto;
-    margin-left: 5rem;
+.gts{
+    text-align: center;
+    border-radius: 10px;
 }
-.offer-img img{
+.btn{
+    border-radius: 10px;
+
+}
+
+.accordion{
+    box-shadow: 0 0 10px hsl(0, 1%, 70%);
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.accordion_label,.accordion_content{
+    padding: 14px 20px;
+    align-items: center;
+
+}
+.accordion_label{
     display: block;
-    max-width: 100%;
-    margin: 0 auto;
-    object-fit: cover;
+    font-weight: 500;
+     cursor: pointer;
+     position: relative;
+     font-size: 1.8rem;
+     text-align: center;
+}
+.accordion_label:hover{
+    background: white;
 }
 
+.accordion_label::after{
+   content: "";
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 20px;
+   width: 12px;
+   height: 6px;
+}
+.accordion_content{
+    background: white;
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+.accordion_input{
+    display: none;
+}
+
+.accordion_input:checked ~ .accordion_content{
+    display: block;
+}
+.accordion label{
+    font-size: 2rem;
+}
+label.accordion_label{
+    font-size: 1rem;
+}
+.form-control{
+    border-radius: 10px;
+}
 @media (max-width: 858px){
     .card-wrapper{
         flex-direction: column;
@@ -207,6 +456,7 @@ p,h1,h6,h2,h4,h3{
     .offer-img{
         margin-top: 2rem;
     }
+    
     .imge-wrapper{
         flex-direction: column;
         justify-content: space-between;
@@ -214,10 +464,11 @@ p,h1,h6,h2,h4,h3{
     }
     .imge-wrapper img{
         display: block;
-        width: 100%;
+        width: 50%;
         margin: auto;
         object-fit: cover;
         object-position: center;
+        padding: 30px;
     }
     .imge-1{
         width: 50%;
@@ -237,5 +488,142 @@ p,h1,h6,h2,h4,h3{
     .lgo{
         margin: 1rem 0;
         position: relative;
+    }
+    .foot-wrapper{
+        flex-direction: column;
+    }
+    #about h1{
+        font-size: 1.8rem;
+        font-size: bold;
+    }
+    #about h6{
+        font-size: 0.7rem;
+        justify-content: flex-start;
+    }
+   #singh h1{
+       font-size: 1.8rem;
+       font-weight: bold;
+
+   }
+   #singh h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+
+   }
+   #ladu h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#ladu h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+#card h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#card h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+#brand h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#brand h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+#safety h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+#safety h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#safety h4{
+    font-size: 1.6rem;
+}
+#faq h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#faq h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+#texti h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#texti h6{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.footer h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.footer i{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.footer h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.ladu-wrapper{
+    flex-direction: column;
+}
+.texti-wrapper{
+    flex-direction: column;
+
+}
+.saf-wrapper{
+    flex-direction: column;
+}
+}
+@media ( max-width:771px){
+    .bord-1{
+        margin-left: 10rem;
+        width: 30%;
+        padding: 10px;
+
+    }
+    .card{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .bord{
+        margin-left: 2rem;
+        width: 40%;
+    }
+    .bord-1{
+        margin-left: 5rem;
+        width: 40%;
+
+    }
+    .about-text{
+        padding: 50px 0;
+    }
+    .abh{
+        flex-direction: column;
+    }
+    #singh h5{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .logo{
+        font-size: 1rem;
     }
 }
